@@ -51,7 +51,7 @@ public final class StdDraw implements ActionListener, MouseListener, MouseMotion
     public static final Color DARK_GRAY  = Color.DARK_GRAY;
     public static final Color GRAY       = Color.GRAY;
     public static final Color BROWN = new Color(111, 78, 55);
-    public static final Color GREEN = new Color(173,255,47);
+    public static final Color GREEN = new Color(50,160,50);
     public static final Color LIGHT_GRAY = Color.LIGHT_GRAY;
     public static final Color MAGENTA    = Color.MAGENTA;
     public static final Color ORANGE     = Color.ORANGE;
@@ -153,7 +153,7 @@ public final class StdDraw implements ActionListener, MouseListener, MouseMotion
      *
      * @param w the width as a number of pixels
      * @param h the height as a number of pixels
-     * @throws a RunTimeException if the width or height is 0 or negative
+     * a RunTimeException if the width or height is 0 or negative
      */
     public static void setCanvasSize(int w, int h) {
         if (w < 1 || h < 1) throw new RuntimeException("width and height must be positive");
